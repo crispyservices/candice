@@ -51,12 +51,6 @@ if (msg.includes(`CHEATS`)) {
 if (msg.includes(`PROXIES`)) {
  message.delete();
 }
-if (msg.includes(`COMBO`)) {
- message.delete();
-}
-if (msg.includes(`COMBOS`)) {
- message.delete();
-}
 if (msg.includes(`CRACK`)) {
  message.delete();
 }
@@ -66,8 +60,18 @@ if (msg.includes(`CRACKING`)) {
 if (msg.includes(`CRACKS`)) {
  message.delete();
 }
-
-
+if (msg.includes(`BOTNET`)) {
+ message.delete();
+}
+if (msg.includes(`DDOS`)) {
+ message.delete();
+}
+	if (msg.includes(`STRESSER`)) {
+ message.delete();
+}
+if (msg.includes(`BOOTER`)) {
+ message.delete();
+}
 
 });
 
