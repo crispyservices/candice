@@ -9,7 +9,7 @@ bot.commands = new Discord.Collection()
 process.on("error", console.error)
 bot.on("ready", async () => {
 	console.log(`${bot.user.username} is now on!`)
-	bot.user.setActivity("My vids", {type: "PLAYING"});
+	bot.user.setActivity("Zoggy's YouTube Videos", {type: "PLAYING"});
 
 })
 
