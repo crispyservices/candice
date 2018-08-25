@@ -71,4 +71,4 @@ if (msg.includes(`CRACKS`)) {
 
 });
 
-bot.login(botconfig.token);
+bot.login(process.env.BOT_TOKEN);
